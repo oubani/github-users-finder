@@ -11,6 +11,7 @@ function Ripo({ repo }) {
           <li className='list-inline-item '>Stars : {repo.stargazers_count}</li>
           <li className='list-inline-item '>forks : {repo.forks}</li>
         </ul>
+        <a href={repo.html_url}>See on github </a>
       </div>
     </div>
   );

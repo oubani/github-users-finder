@@ -8,6 +8,7 @@ function Ripo({ repo }) {
         <p className='card-text'>{repo.description}</p>
         <ul className='list-inline'>
           <li className='list-inline-item '>watches : {repo.watchers}</li>
+          <li className='list-inline-item '>Stars : {repo.stargazers_count}</li>
           <li className='list-inline-item '>forks : {repo.forks}</li>
         </ul>
       </div>
